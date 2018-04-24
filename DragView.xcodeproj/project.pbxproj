@@ -14,6 +14,11 @@
 		5438D20D208EF65D005D684E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5438D20B208EF65D005D684E /* LaunchScreen.storyboard */; };
 		5438D218208EF65D005D684E /* DragViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5438D217208EF65D005D684E /* DragViewTests.swift */; };
 		5438D223208EF65D005D684E /* DragViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5438D222208EF65D005D684E /* DragViewUITests.swift */; };
+		5438D231208EF6C0005D684E /* Link.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5438D230208EF6C0005D684E /* Link.jpg */; };
+		5438D233208EF8E1005D684E /* Draggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5438D232208EF8E1005D684E /* Draggable.swift */; };
+		5438D235208EF91C005D684E /* DraggableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5438D234208EF91C005D684E /* DraggableManager.swift */; };
+		5438D237208EFD43005D684E /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5438D236208EFD43005D684E /* DraggableImageView.swift */; };
+		54E1FF1E208F012D0025ACA6 /* DroppableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E1FF1D208F012D0025ACA6 /* DroppableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		5438D21E208EF65D005D684E /* DragViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5438D222208EF65D005D684E /* DragViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragViewUITests.swift; sourceTree = "<group>"; };
 		5438D224208EF65D005D684E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5438D230208EF6C0005D684E /* Link.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Link.jpg; sourceTree = "<group>"; };
+		5438D232208EF8E1005D684E /* Draggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Draggable.swift; sourceTree = "<group>"; };
+		5438D234208EF91C005D684E /* DraggableManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableManager.swift; sourceTree = "<group>"; };
+		5438D236208EFD43005D684E /* DraggableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
+		54E1FF1D208F012D0025ACA6 /* DroppableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				5438D209208EF65D005D684E /* Assets.xcassets */,
 				5438D20B208EF65D005D684E /* LaunchScreen.storyboard */,
 				5438D20E208EF65D005D684E /* Info.plist */,
+				5438D230208EF6C0005D684E /* Link.jpg */,
+				5438D232208EF8E1005D684E /* Draggable.swift */,
+				5438D234208EF91C005D684E /* DraggableManager.swift */,
+				5438D236208EFD43005D684E /* DraggableImageView.swift */,
+				54E1FF1D208F012D0025ACA6 /* DroppableView.swift */,
 			);
 			path = DragView;
 			sourceTree = "<group>";
@@ -233,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5438D20D208EF65D005D684E /* LaunchScreen.storyboard in Resources */,
+				5438D231208EF6C0005D684E /* Link.jpg in Resources */,
 				5438D20A208EF65D005D684E /* Assets.xcassets in Resources */,
 				5438D208208EF65D005D684E /* Main.storyboard in Resources */,
 			);
@@ -259,6 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E1FF1E208F012D0025ACA6 /* DroppableView.swift in Sources */,
+				5438D233208EF8E1005D684E /* Draggable.swift in Sources */,
+				5438D237208EFD43005D684E /* DraggableImageView.swift in Sources */,
+				5438D235208EF91C005D684E /* DraggableManager.swift in Sources */,
 				5438D205208EF65D005D684E /* ViewController.swift in Sources */,
 				5438D203208EF65D005D684E /* AppDelegate.swift in Sources */,
 			);
@@ -427,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC7GNY758G;
 				INFOPLIST_FILE = DragView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aavalosmt.DragView;
@@ -441,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BC7GNY758G;
 				INFOPLIST_FILE = DragView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aavalosmt.DragView;

@@ -6,12 +6,7 @@
 //  Copyright © 2018 Aldo Antonio Martinez Avalos. All rights reserved.
 //
 
-import Foundation
 import UIKit
-
-protocol Initializable {
-    init()
-}
 
 class DraggableItem<T> {
     var value: T
@@ -21,9 +16,8 @@ class DraggableItem<T> {
 }
 
 protocol Draggable: class {
-    func canDrag(view: UIView)
-    func dragInto(view: UIView)
-    func droppable(view: UIView) -> DraggableItem<Any>
+    func canDrag(view: UIView) -> Bool
+    func item(for view: UIView) -> DraggableItem<Any>
     func onDrag(view: UIView, recognizer: UIPanGestureRecognizer)
 }
 
